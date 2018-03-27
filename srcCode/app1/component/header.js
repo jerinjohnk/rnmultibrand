@@ -1,0 +1,36 @@
+// Import libraries for making a component
+import React from 'react'
+import { Text, View } from 'react-native'
+
+const styles = {
+  viewStyle: {
+    backgroundColor: '#00FFFF',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 60,
+    width:100,
+    paddingTop: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    elevation: 2,
+    position: 'relative',
+  },
+  textStyle: {
+    fontSize: 20,
+  },
+}
+type Props = {
+  headerText: string,
+}
+
+const Header = (props: Props) => {
+
+  const { textStyle, viewStyle } = styles
+  return (
+    <View style={viewStyle}>
+      <Text style={textStyle}>{props.headerText}</Text>
+    </View>
+  )
+}
+export default Header
