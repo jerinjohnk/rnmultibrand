@@ -6,7 +6,7 @@
 
 ## Intro
 
-This repo is a practical implementation of creating a multi-branding app from a single source code file using [GULP](https://gulpjs.com/)
+This repo is a practical implementation of ideas, discussed in the [Medium article](https://medium.com/@jerinjohnk/https-medium-com-jerinjohnk-multi-tenancy-in-react-native-316fe629890d), about creating a multi-branding app from a single source code file using [gulp](https://gulpjs.com/)
 
 ---
 
