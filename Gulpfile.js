@@ -4,9 +4,9 @@ var gulp = require("gulp");
 var appFlavor = "app1";
 
 var pathOverWrite = [
-  "./srcCode/main/**", 
-  "./srcCode/" + appFlavor + "/**"];
-var pathWatch = "srcCode/" + appFlavor + "/**";
+  "./rootSrc/core/**", 
+  "./rootSrc/" + appFlavor + "/**"];
+var pathWatch = "rootSrc/" + appFlavor + "/**";
 
 //overwrite main with app flavor
 gulp.task("overwrite", () => {
