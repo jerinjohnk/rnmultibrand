@@ -1,7 +1,7 @@
 var gulp = require("gulp");
 
 //app Flavorname
-var appFlavor = "app2";
+var appFlavor = "app1";
 
 var pathOverWrite = [
   "./srcCode/main/**", 
